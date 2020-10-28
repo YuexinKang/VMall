@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+        <!-- Base application theme. -->
+        <!--    底部菜单按钮的样式-->
+        <style name="TabMenuItem">
+            <!--        将默认的按钮样式设为空，即不使用默认的样式-->
+            <item name="android:button">@null</item>
+            <!--        自定义按钮样式 name后的内容为属性设置样式的名称通过设置<item_list></item_list>之间的内容设置自定义的样式的属性值-->
+            <item name="android:layout_weight">1</item>
+            <item name="android:layout_width">6dp</item>
+            <item name="android:layout_height">match_parent</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:textColor">@drawable/selector_nav_text</item>
+            <item name="android:gravity">center</item>
+            <item name="android:paddingTop">3dp</item>
+        </style>
+
+
+</resources>

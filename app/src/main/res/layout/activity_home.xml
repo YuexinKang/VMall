@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/btn_group"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#F2F2F2"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/btn_home"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_home"
+            android:text="首页"
+            />
+        <RadioButton
+            android:id="@+id/btn_classify"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_classify"
+            android:text="分类"
+            />
+        <RadioButton
+            android:id="@+id/btn_discover"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_discover"
+            android:text="发现"
+            />
+        <RadioButton
+            android:id="@+id/btn_shopping"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_shopping"
+            android:text="购物车"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/btn_my"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_my"
+            android:text="我的"
+            />
+    </RadioGroup>
+
+</LinearLayout>
